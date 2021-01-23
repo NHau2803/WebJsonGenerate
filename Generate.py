@@ -44,6 +44,8 @@ class Generate:
                 end = datetime.strptime(args[1], "%d/%m/%Y")
                 for i in range(start, end):
                     print(i)
+                    
+#nếu ông thêm class name thì mấy cái arr họ, chữ lót, tên ông để riêng cho dễ nhìn nha. code tui để chung file hơi sai!.
 
 
 a = Generate()
